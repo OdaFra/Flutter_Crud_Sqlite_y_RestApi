@@ -8,3 +8,8 @@ Para utilizar el proyecto, favor clonar el repositrio y aplicar el siguiente com
 
 flutter pub get (Se encargará de instalar las depencias necesarias).
 
+Las dependencias necesarias son:
+
+flutter pub add sqflite  
+flutter pub add http
+
