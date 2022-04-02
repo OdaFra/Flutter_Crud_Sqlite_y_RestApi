@@ -1,16 +1,15 @@
-# devmobiletest
+# Dev Mobile Test
 
-A new Flutter project.
+Este proyecto corresponde a un ejemplo de CRUD con la DB Sqlite y el consumo correspondiente de la siguiente api https://reqres.in/api/users
 
-## Getting Started
+## Info
 
-This project is a starting point for a Flutter application.
+Para utilizar el proyecto, favor clonar el repositrio y aplicar el siguiente comando.
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub get (Se encargará de instalar las depencias necesarias).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Las dependencias necesarias son:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub add sqflite  
+flutter pub add http
+
