@@ -113,19 +113,21 @@ class _HomePageState extends State<HomePage> {
             ));
   }
 
+//Para agregar Persona
   Future<void> _addPersona() async {
     await CRUDSQLITE.crearPersona(
         _nombreController.text, _fechaController.text, _sexoController.text);
     _resfrescardata();
   }
 
+// Para actualizar Persona
   Future<void> _updatepersona(int id) async {
     await CRUDSQLITE.actualizarPersona(id, _nombreController.text,
         _fechaController.text, _sexoController.text);
     _resfrescardata();
   }
 
-  // Delete an item
+//Para eliminar Persona
   void _deletePersona(int id) async {
     await CRUDSQLITE.deletePersona(id);
     ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
